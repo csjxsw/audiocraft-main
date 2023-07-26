@@ -3,6 +3,8 @@ import torchaudio
 from audiocraft.models import MusicGen
 from audiocraft.utils.notebook import display_audio
 
+## for test
+
 model = MusicGen.get_pretrained('melody')
 model.set_generation_params(duration=8)
 
